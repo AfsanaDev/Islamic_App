@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Islamic App</string>
+    <string name="islamic_app">Islamic App</string>
+    <string name="date">Date</string>
+    <string name="tasbeeh">Tasbeeh</string>
+    <string name="time">Time</string>
+    <string name="youtube">Youtube</string>
+    <string name="mosque">Mosque</string>
+    <string name="calender">Calender</string>
+    <string name="waz">Waz</string>
+    <string name="todo">TODO</string>
+    <string name="home">home</string>
+    <string name="all_tashbeeh">All Tashbeeh</string>
+    <string name="_1_tasbeeh">1 tasbeeh</string>
+    <string name="_2_tasbeeh">2 tasbeeh</string>
+    <string name="_3_tasbeeh">3 tasbeeh</string>
+    <string name="_4_tasbeeh">4 tasbeeh</string>
+    <string name="_5_tasbeeh">5 tasbeeh</string>
+    <string name="_6_tasbeeh">6 tasbeeh</string>
+    <string name="_7_tasbeeh">7 tasbeeh</string>
+    <string name="_8_tasbeeh">8 tasbeeh</string>
+    <string name="_9_tasbeeh">9 tasbeeh</string>
+    <string name="_10_tasbeeh">10 tasbeeh</string>
+    <string name="_11_tasbeeh">11 tasbeeh</string>
+    <string name="_12_tasbeeh">12 tasbeeh</string>
+    <string name="countTasbeeh">TODO</string>
+    <string name="select">Select Tasbeeh</string>
+
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAF9F6"
+    tools:context=".calender_activity">
+    <TextView
+        android:id="@+id/calenderHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Calender"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:padding="20dp"
+        android:layout_marginTop="30dp"
+        />
+    <CalendarView
+        android:id="@+id/calender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/calenderText"
+        android:layout_width="132dp"
+        android:layout_height="47dp"
+        android:layout_above="@id/calender"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="129dp"
+        android:layout_marginBottom="12dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".viewQuran"
+    android:background="#FAF9F6">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thanks for reading Quran"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="20dp"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+
+        />
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/pdfView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <TextView
+        android:id="@+id/showQuaran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
